@@ -1,27 +1,50 @@
-# Boston Housing Price Predictor
+# 🏠 Boston House Price Predictor
 
-This is a beginner-level machine learning project that uses a linear regression model to predict house prices in Boston based on various features.
+A Machine Learning project that predicts housing prices in Boston using popular regression algorithms. This project demonstrates a complete pipeline from data preprocessing to model evaluation, focusing on clean code, explainable steps, and user-friendly results.
 
-## Dataset
+![boston-housing](https://img.shields.io/badge/Machine%20Learning-Scikit--Learn-blue?style=flat-square) ![Python](https://img.shields.io/badge/Python-3.9+-yellow.svg?style=flat-square)
 
-The dataset used is the **Boston Housing dataset** from OpenML, which includes 13 features such as crime rate, average number of rooms, tax rate, and more.
+---
 
-## Technologies Used
+## 📌 Project Overview
 
-- Python
-- pandas
-- scikit-learn
-- NumPy
+This repository contains code to:
 
-## Features
+- Load and explore the **Boston Housing Dataset**
+- Preprocess and visualize the data
+- Train multiple regression models (Linear Regression, Ridge, Lasso, etc.)
+- Evaluate model performance using metrics like RMSE and R² Score
+- Predict housing prices for new inputs
 
-- Trains a linear regression model on the Boston dataset
-- Evaluates the model with Mean Squared Error and R² Score
-- Accepts custom input from the user to predict house price
+---
 
-## Getting Started
+## 📊 Dataset
 
-### 1. Install Requirements
+The **Boston Housing Dataset** contains information collected by the U.S Census Service concerning housing in the area of Boston Mass.
+
+**Features include:**
+- CRIM: Crime rate
+- RM: Average number of rooms
+- LSTAT: % lower status of the population
+- PTRATIO: Pupil-teacher ratio, etc.
+
+📎 Available by default in `sklearn.datasets`.
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
 
 ```bash
-pip install pandas scikit-learn numpy
+git clone https://github.com/parsazamani1383/BostonHousePredictor.git
+cd BostonHousePredictor
+
+## 🙋‍♂️ About Me
+
+**👨‍💻 Name:** Parsa Zamani  
+**🎓 Field of Study:** Computer Engineering  
+**🧠 Interests:** Artificial Intelligence, Machine Learning, Backend Development, Algorithm Design  
+**📍 Location:** Iran  
+**📫 Email:** parsazamani.uok@gmail.com  
+**🐙 GitHub:** [github.com/parsazamani1383](https://github.com/parsazamani1383)
